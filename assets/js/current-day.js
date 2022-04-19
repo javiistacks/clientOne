@@ -5,3 +5,5 @@
         currentDay.classList.add('today');
     }
 })();
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
